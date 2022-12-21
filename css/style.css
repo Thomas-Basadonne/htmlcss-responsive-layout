@@ -45,7 +45,7 @@ header{
 .row{
     display: flex;
     flex-wrap: wrap;
-    gap: 5%;
+    gap: 3rem
 }
 
 .card{
@@ -53,6 +53,7 @@ header{
     border-radius: 1rem;
     text-align: center;
     padding: 0 0.6rem 0.6rem;
+    height: 100%;
 }
 
 .card.big{
@@ -61,25 +62,43 @@ header{
 }
 
 .col.big{
-    width: 60%;
+    width: 64%;
+    
 }
 
 .col{
     width: 30%;
+    
 }
 
 .content{
     display: flex;
 }
 
-span{
+.card-header{
     color:#1185FD;
     font-size: 1.2rem;
     font-weight: 800;
-    padding: 100rem 0;
+    margin-bottom: 1.6rem;
 }
 
-span>i{
+.card p{
+    padding-bottom: 0.6rem;
+}
+
+.card button{
+    margin-top: 2rem;
+    background-color: #1185FD;
+    color: aliceblue;
+    word-spacing: 0.3rem;
+    padding: 0.6rem 2rem;
+}
+
+.card-header>i{
     font-size: 4rem;
-    padding: 0.6rem;
+    padding: 0.8rem;
+}
+
+.phone{
+    vertical-align: bottom;
 }
