@@ -41,3 +41,45 @@ header{
 /* INIZIO MAIN */
 
 /* SECTION 1 */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.card{
+    background-color: #B5DDFF;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 0 0.6rem 0.6rem;
+}
+
+.card.big{
+    text-align: left;
+    padding: 0 0.6rem;
+}
+
+.col.big{
+    width: 60%;
+}
+
+.col{
+    width: 30%;
+}
+
+.content{
+    display: flex;
+}
+
+span{
+    color:#1185FD;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding: 100rem 0;
+}
+
+span>i{
+    font-size: 4rem;
+    padding: 0.6rem;
+}
