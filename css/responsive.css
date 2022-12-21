@@ -1,0 +1,11 @@
+/* header */
+
+@media screen and (max-width: 768px) {
+    .nav{
+        display: none;
+    }
+
+    .burger{
+        display: inline;
+    }
+}
