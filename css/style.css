@@ -214,3 +214,53 @@ margin-bottom: 3rem;
     color: aliceblue;
     padding-bottom: 3rem;
 }
+
+/* ABOUT US */
+
+.card-about>h1{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #9593E6;
+    padding-bottom: 2rem;
+}
+
+.card-about>p{
+    padding-bottom: 3rem;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+}
+
+#about>div>.row{
+    gap:0;
+}
+
+.col-30>img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+.col-30>p{
+    font-size: 2rem;
+    color: #9593E6;
+    font-weight: 900;
+    padding-bottom: 2rem;
+}
+
+.col-30>button{
+    background-color: #9593E6;
+    color: aliceblue;
+    padding: 8px 15px;
+}
+
+.col-30{
+    position: relative;
+}
+
+.quote{
+    position: absolute;
+    font-size: 4rem;
+    right: 90px;
+    color: #9593E6;
+}
