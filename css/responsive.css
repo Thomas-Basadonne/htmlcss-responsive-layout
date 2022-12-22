@@ -9,3 +9,53 @@
         display: inline;
     }
 }
+
+/* card section */
+
+@media screen and (max-width: 768px){
+    .row{
+        gap: 2rem;
+    }
+    .col{
+        align-content: stretch;
+    }
+
+    .col .big{
+        align-content: stretch;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .phone{
+        padding-top: 2rem;
+        width: 15rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .col.big {
+        width: 100%;
+        padding-top: 2rem;
+    }
+
+    .card-section {
+        margin: 0 auto;
+    }
+
+    .phone {
+        align-self: center;
+        margin-right: 0;
+    }
+}    
