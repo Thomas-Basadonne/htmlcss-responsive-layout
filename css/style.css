@@ -192,9 +192,8 @@ margin-bottom: 3rem;
 #testimonials .card .card-image {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-top: 1rem;
+    margin-top: 2.7rem;
+    margin-bottom: 0;
 }
 
 #testimonials .card .card-contents {
